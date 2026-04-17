@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+    <article data-testid="test-profile-card" class="card">
+
+        <header>
+          <h2 data-testid="test-user-name">Basit Arogundade</h2>
+        </header>
+      
+        <figure>
+          <img 
+            src="https://images.unsplash.com/photo-1740252117070-7aa2955b25f8?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8QXZhdGFyJTIwaW1hZ2VzJTIwd2l0aCUyMGJyb3duJTIwc2tpbnxlbnwwfHwwfHx8MA%3D%3D"
+            alt="Portrait of Abdulbasit"
+            data-testid="test-user-avatar"
+          >
+          <figcaption>Frontend Developer</figcaption>
+        </figure>
+      
+        <p data-testid="test-user-bio">
+            Dynamic and results-driven professional in web development and Business management. Adept at developing innovative web solutions, driving business growth, and managing cross-functional teams.
+        </p>
+      
+        <p data-testid="test-user-time" id="time" aria-live="polite"></p>
+      
+        <div class="info">
+        <section>
+        <h2>Social Links</h2>
+        <nav data-testid="test-user-social-links">
+          <ul>
+            <li>
+                <p><span>Twitter: </span> <span><a href="https://x.com/ololadeayo1" data-testid="test-user-social-github">@ololadeayo1</a></span></p>
+            </li>
+            <li>
+                <p><span>GitHub: </span> <span><a href="https://github.com/Basit-Arogundade" data-testid="test-user-social-github">github.com/Basit-Arogundade</a></span></p>
+            </li>
+            <li>
+                <p><span>LinkedIn: </span> <span><a href="https://www.linkedin.com/in/abdulbasit-aro/" data-testid="test-user-social-linkedin">Abdulbasit Arogundade</a></span></p>
+            </li>
+          </ul>
+        </nav>
+    </section>
+
+        <section>
+          <h2>Hobbies</h2>
+          <ul data-testid="test-user-hobbies">
+            <li>Coding</li>
+            <li>Reading</li>
+            <li> Watching Football</li>
+          </ul>
+        </section>
+      
+        <section>
+          <h2>Dislikes</h2>
+          <ul data-testid="test-user-dislikes">
+            <li>Procrastination</li>
+            <li>Slow internet</li>
+            <li>Stress</li>
+          </ul>
+        </section>
+    </div>
+      
+      </article>
+      <script src="profile.js"></script>
+</body>
+</html>
